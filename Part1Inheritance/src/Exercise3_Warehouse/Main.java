@@ -14,7 +14,5 @@ class Main {
         System.out.println("\n");
         //prints out analysis
         juice.printAnalysis();
-
-
     }
 }
