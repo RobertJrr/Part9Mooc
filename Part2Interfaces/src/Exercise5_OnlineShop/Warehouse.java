@@ -1,5 +1,6 @@
 package Exercise5_OnlineShop;
 import java.util.Map;
+import java.util.Set;
 import java.util.HashMap;
 
 public class Warehouse {
@@ -42,6 +43,12 @@ public class Warehouse {
         int remaining = stocks.get(product) - 1;
         stocks.put(product,remaining);
         return true; //return true bc had stock
+    }
+
+    //returns a Set of String objects that are products
+    public Set<String> products(){
+        return this.products.keySet();
+
     }
 
 
